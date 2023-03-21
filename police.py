@@ -135,7 +135,7 @@ if uploaded_file is not None:
      violation_counts = data['violation'].value_counts()
      labels = violation_counts.index
      values = violation_counts.values
-     fig=ax = plt.subplots()
+     fig,ax = plt.subplots()
      ax.pie(values, labels=labels, autopct='%1.1f%%')
      ax.axis('equal')
      st.pyplot(fig)

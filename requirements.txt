@@ -1,4 +1,5 @@
 matplotlib
 seaborn
 plotly
-Flask, render_template
+Flask
+render_template
